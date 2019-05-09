@@ -1,0 +1,4 @@
+DECLARE ro BIT[4]
+H 0
+CPHASE(cos(sin(2*pi/3))*cis(-1)*exp(i*pi)) 3 4
+MEASURE 0 ro[0]

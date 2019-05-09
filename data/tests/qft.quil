@@ -1,0 +1,12 @@
+DECLARE ro BIT[3]
+H 2
+CPHASE(pi/2) 2 1
+H 1
+CPHASE(pi/4) 2 0
+CPHASE(pi/2) 1 0
+H 0
+SWAP 0 2
+MEASURE 0 ro[0]
+MEASURE 1 ro[1]
+MEASURE 2 ro[2]
+
